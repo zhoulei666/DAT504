@@ -1,7 +1,7 @@
 
 function countBs (string) {
   var num = 0;
-  for (var i = 0; i < string.length; i++){
+  for (var i = 0; i < string.length; i+= 1){
     if (string[i] == 'B'){
       num += 1;
     }
