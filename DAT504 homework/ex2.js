@@ -9,6 +9,6 @@ function isEven (num) {
 
     return isEven(Math.abs(num) - 2);
 }
-alert(isEven, (50));
-alert(isEven, (75));
-alert(isEven, (-1));
+alert(isEven (50));
+alert(isEven (75));
+alert(isEven (-1));
